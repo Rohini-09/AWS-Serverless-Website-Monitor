@@ -41,20 +41,28 @@ If 5 or more submissions are received in a single minute, **SNS** triggers an em
 
 ---
 
+
 ## 📁 Project Structure
 
 aws-serverless-survey/
-├── lambda/ # Lambda function code
-│ └── lambda_function.py
-├── s3_website/ # Static website files (HTML/CSS/JS)
-│ └── index.html
-├── api_gateway/ # API Gateway configuration or setup notes
-│ └── setup.md
-├── cloudwatch/ # Screenshot of the dashboard or logs
-│ └── dashboard.png
-├── sns/ # SNS setup steps
-│ └── sns_alert_setup.md
-└── README.md # This documentation file
+├── lambda/                # Lambda function code
+│   └── lambda_function.py
+├── s3_website/            # Static website files (HTML/CSS/JS)
+│   ├── index.html
+│   ├── survey.html
+│   ├── thankyou.html
+│   └── styles.css
+├── api_gateway/           # API Gateway configuration or setup notes
+│   └── setup.md
+├── cloudwatch/            # CloudWatch screenshots (monitoring)
+│   ├── Screenshot 2025-06-11 123031.png
+│   ├── Screenshot 2025-06-11 123131.png
+│   ├── Screenshot 2025-06-11 123204.png
+│   └── Screenshot 2025-06-11 144739.png
+├── sns/                   # SNS setup steps
+│   └── sns_alert_setup.md
+└── README.md              # This documentation file
+
 
 
 
@@ -64,10 +72,22 @@ aws-serverless-survey/
 
 ## 📸 Screenshots
 
-> ![CloudWatch Dashboard](cloudwatch/dashboard.png)  
-> *Above: Example dashboard visualizing submission counts and latency.*
+### 📊 CloudWatch Monitoring Screenshots
 
----
+Here are screenshots showing real-time monitoring of the AWS survey website:
+
+1. **Metric View**
+   ![](cloudwatch/Screenshot%202025-06-11%20123031.png)
+
+2. **Latency Tracking**
+   ![](cloudwatch/Screenshot%202025-06-11%20123131.png)
+
+3. **Submissions Count**
+   ![](cloudwatch/Screenshot%202025-06-11%20123204.png)
+
+4. **SNS Alert Trigger Setup**
+   ![](cloudwatch/Screenshot%202025-06-11%20144739.png)
+
 
 ## ✉️ SNS Email Sample
 
@@ -85,5 +105,5 @@ This project demonstrates a fully serverless application using AWS cloud service
 ## 🔗 Contact
 
 📧 your.email@example.com  
-🔗 [LinkedIn Profile](https://www.linkedin.com/in/your-link)  
+🔗 [LinkedIn Profile](https://www.linkedin.com/in/rohini-gusain)  
 🔗 [GitHub Repo](https://github.com/your-username/aws-serverless-survey)
