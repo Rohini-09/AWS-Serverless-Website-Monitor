@@ -104,6 +104,6 @@ This project demonstrates a fully serverless application using AWS cloud service
 
 ## 🔗 Contact
 
-📧 your.email@example.com  
+📧 gusainrohini@gmail.com  
 🔗 [LinkedIn Profile](https://www.linkedin.com/in/rohini-gusain)  
 🔗 [GitHub Repo](https://github.com/Rohini-09/aws-serverless-survey)
